@@ -98,7 +98,7 @@ products.forEach(product => {
     categories.push(product.category);
   }
 });
-console.log('Unique Categories:', categories);
+Cconsole.log('Unique Categories:', categories);
 ```
 
 ### Part 2: Practice with `filter`
