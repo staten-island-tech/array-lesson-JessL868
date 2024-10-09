@@ -62,4 +62,4 @@ const products = [
 //products.filter((product) => product.rating >= 4.5).forEach((product) => console.log(product.name));
 
 //Part 3: 2. Use filter to find all the products in the 'Electronics' category that are priced below $1000. After filtering, use forEach to log their details.
-//products.filter((product) => product.price < 1000).forEach((product) => console.log(product));
+//products.filter((product) => product.price < 1000 && product.category === 'Electronics').forEach((product) => console.log(product));
